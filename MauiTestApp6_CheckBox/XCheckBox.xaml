@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CheckBox xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTestApp6_CheckBox.XCheckBox">
+    <VisualStateManager.VisualStateGroups>
+        <VisualStateGroup x:Name="CommonStates">
+            <VisualState x:Name="Normal">
+                <VisualState.Setters>
+                    <Setter Property="Color" Value="{DynamicResource XCheckBox_Unchecked}" />
+                </VisualState.Setters>
+            </VisualState>
+
+            <VisualState x:Name="IsChecked">
+                <VisualState.Setters>
+                    <Setter Property="Color" Value="{DynamicResource XCheckBox_Checked}" />
+                </VisualState.Setters>
+            </VisualState>
+        </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
+</CheckBox>
+    
