@@ -7,7 +7,7 @@
     <ScrollView>
         <VerticalStackLayout
             Spacing="25"
-            Padding="20,30"
+            Padding="10,30"
             VerticalOptions="Start">
 
             <HorizontalStackLayout VerticalOptions="Center">
@@ -28,7 +28,7 @@
                         </VisualStateGroup>
                     </VisualStateManager.VisualStateGroups>
                 </CheckBox>
-                <Label Text="Checkbox 1 using explicit colors" Margin="10,0,0,0" FontSize="Medium" VerticalOptions="Center"/>
+                <Label Text="Checkbox 1 using explicit colors" Margin="10,0,0,0" FontSize="14" VerticalOptions="Center"/>
             </HorizontalStackLayout>
 
             <HorizontalStackLayout VerticalOptions="Center">
@@ -49,12 +49,17 @@
                         </VisualStateGroup>
                     </VisualStateManager.VisualStateGroups>
                 </CheckBox>
-                <Label Text="Checkbox 2 using resource colors" Margin="10,0,0,0" FontSize="Medium"  VerticalOptions="Center"/>
+                <Label Text="Checkbox 2 using resource colors" Margin="10,0,0,0" FontSize="14"  VerticalOptions="Center"/>
             </HorizontalStackLayout>
 
             <HorizontalStackLayout VerticalOptions="Center">
                 <d:XCheckBox  VerticalOptions="Center"/>
-                <Label Text="Checkbox 3 using XCheckBox" Margin="10,0,0,0" FontSize="Medium"  VerticalOptions="Center"/>
+                <Label Text="Checkbox 3 using XCheckBox" Margin="10,0,0,0" FontSize="14"  VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout VerticalOptions="Center">
+                <d:XCheckBoxWorkaround  VerticalOptions="Center" IsChecked="True" />
+                <Label Text="Checkbox 4 using XCheckBoxWorkaround" Margin="10,0,0,0" FontSize="14"  VerticalOptions="Center"/>
             </HorizontalStackLayout>
 
         </VerticalStackLayout>
